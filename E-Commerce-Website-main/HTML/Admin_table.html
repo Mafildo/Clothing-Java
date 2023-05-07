@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="admin.css">
+    <script src="Admin.js" defer></script>
+</head>
+
+<body>
+    <div class="Admin_container">
+        <div class="Admin_title">Admin Table</div> 
+    <table class="product-table">
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Product Brand</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Product Image</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Product 1</td>
+                <td>Brand 1</td>
+                <td>RS 10.00</td>
+                <td>5</td>
+                <td><img src="Photo/Logo.png" alt="Product 1"></td>
+                <td>
+                    <button class="edit-btn" onclick="window.location.href='Admin.html'">Edit</button>
+                    <button class="delete-btn">Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Product 2</td>
+                <td>Brand 2</td>
+                <td>RS 20.00</td>
+                <td>3</td>
+                <td><img src="Photo/Logo.png" alt="Product 2"></td>
+                <td>
+                    <button class="edit-btn" onclick="window.location.href='Admin.html'">Edit</button>
+                    <button class="delete-btn">Delete</button>
+                </td>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
+
